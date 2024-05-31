@@ -1,0 +1,53 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "44838fed-49ab-4f7b-b1e4-7698ed77f218")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 105.41 54.61) (xy 154.94 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71abcefb-f539-4fdd-baf9-127c256f095d")
+	)
+	(hierarchical_label "{48VDC, GND}"
+		(shape input)
+		(at 105.41 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af89aefa-b1fa-45fa-8dbc-542981f3b7df")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 121.92 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "143e2f89-2abd-4132-895e-3736907bc6b9")
+		(property "Netclass" "Main PWR"
+			(at 122.6185 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+)
